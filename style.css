@@ -1,0 +1,41 @@
+.container {
+    width: 100vh;
+    border: 2px solid rgb(241, 240, 240);
+    margin-top: 5%;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+body {
+    background-color: rgb(209, 205, 205);
+}
+
+.itens {
+    margin-left: 10.3%;
+    width: 50px;
+}
+
+.style {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+
+.selectbox {
+    border: 1px solid rgb(197, 21, 21);
+    border-radius: 2px;
+
+}
+
+.selectbox:hover {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(188, 192, 196);
+    color: white;
+}
+
+p {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}

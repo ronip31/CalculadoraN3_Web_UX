@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="titulo text-center">Calculadora</h1>
+
+
+            <div class="text-center">
+                <select class="text-center selectbox col-lg-2 col-md-6 col-sm-12 " name="operation" id="operation"
+                    onchange="operation()">
+                    <option selected disabled value="" value="0">Operação</option>
+                    <option value="1">Adição</option>
+                    <option value="2">Subtração</option>
+                    <option value="3">Divisão</option>
+                    <option value="4">Multiplicação</option>
+                </select>
+            </div>
+
+
+            <h1 class="text-center" id="answer"></h1>
+
+
+            <div class="itens">
+                <form class="mx-auto w-25 mb-3 d-lg-flex">
+                    <input class="text-center style" type="number" id="num1" placeholder="1ºNúmero"></p>
+                    <h1 class="sinal" id="answer3"></h1>
+                    <input class="text-center style" type="number" id="num2" placeholder="2ºNúmero"></p>
+                </form>
+            </div>
+
+
+            <div class="text-center">
+                <button class="selectbox" id='calc' onclick='calculate();'>Calcular</button>
+                <p>Resposta:</p>
+                <p id="answer2"></p>
+            </div>
+        </div>
+    </div>
+    <script src="javaScript.js"></script>
+</body>
+
+</html>
